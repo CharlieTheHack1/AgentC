@@ -53,7 +53,7 @@ elif op == "6" :
    print("\033[91m Installing Alpine... \033[0m")
    os.system("cd")
    time.sleep(1.5)
-   os.system("apy install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh")
+   os.system("apt install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh")
 elif op == "7" :
    print("\033[91m Installing tumbelweed... \033[0m")
    os.system("cd")
